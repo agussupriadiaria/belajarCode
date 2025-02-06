@@ -15,20 +15,22 @@ h1{
     text-decoration: none;
 }
 
-nav ul .menu-button{
+.menu-icon{
+    /* background-color: red; */
+    text-align: end;
+    color: orange;
     display: none;
 }
-
-.menu-icon{
-    background-color: red;
-    text-align: end;
+.menu-icon .menu-button{
+    /* display: none; */
 }
 
 @media screen and (max-width: 768px) {
     nav ul li{
         display: none;
     }
-    nav ul .menu-button{
+    .menu-icon{
         display: flex;
+        justify-content: end;
     }
 }
